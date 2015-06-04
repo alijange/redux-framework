@@ -70,7 +70,7 @@ if ( ! class_exists( 'ReduxFramework_editor' ) ) {
                 'textarea_name' => $this->field['name'] . $this->field['name_suffix'],
                 'editor_class'  => $this->field['class'],
                 'textarea_rows' => 10, //Wordpress default
-                'teeny'         => true,
+                'teeny'         => false,
             );
 
             if ( isset( $this->field['editor_options'] ) && empty( $this->field['args'] ) ) {
